@@ -6,10 +6,12 @@
 
 .div__img {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
-
+svg {
+  width: 100%;
+}
 .main__img {
   width: 70%;
 }
@@ -29,11 +31,16 @@
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  text-align: justify;
 }
 
 .about__desc,
 .about__contact {
+  width: 100%;
   margin-top: 2.4em;
+}
+.about__contact {
+  justify-content: center;
 }
 
 .about .link--icon {
@@ -42,6 +49,74 @@
 
 .about .btn--outline {
   margin-right: 1em;
+}
+
+/* animate image */
+
+#head {
+  animation: headMove infinite linear 2s;
+  transform-origin: center;
+}
+#left-arm {
+  animation: move-left-arm infinite linear 1s;
+  transform-origin: center;
+}
+
+#rigth-arm {
+  animation: move-rigth-arm infinite linear 1s;
+  transform-origin: center;
+}
+#Table-Component {
+  z-index: 100;
+}
+
+#Code:nth-child(odd) {
+  fill: "#fff";
+}
+@keyframes move-left-arm {
+  0% {
+    transform: translate(-10px, 350px);
+  }
+  25% {
+    transform: translate(-10px, 345px);
+  }
+  50% {
+    transform: translate(-10px, 350px);
+  }
+  75% {
+    transform: translate(-10px, 345px);
+  }
+  100% {
+    transform: translate(-10px, 350px);
+  }
+}
+@keyframes move-rigth-arm {
+  0% {
+    transform: translate(245px, 330px);
+  }
+  25% {
+    transform: translate(245px, 335px);
+  }
+  50% {
+    transform: translate(245px, 330px);
+  }
+  75% {
+    transform: translate(245px, 335px);
+  }
+  100% {
+    transform: translate(245px, 330px);
+  }
+}
+@keyframes headMove {
+  0% {
+    transform: translate(129.164px, 120px);
+  }
+  50% {
+    transform: translate(130px, 110px);
+  }
+  100% {
+    transform: translate(129.164px, 120px);
+  }
 }
 
 @media (max-width: 600px) {
