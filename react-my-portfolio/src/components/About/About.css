@@ -6,21 +6,27 @@
 
 .div__img {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   align-items: center;
+  transform: translateX(50px);
 }
 svg {
   width: 100%;
 }
 .main__img {
-  width: 70%;
+  width: 60%;
 }
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
 }
-
+/* 
+.about h1 {
+  line-height: 1;
+} */
 .about__name {
+  font-family: "Roboto", sans-serif;
   color: var(--clr-primary);
 }
 
@@ -62,60 +68,102 @@ svg {
   transform-origin: center;
 }
 
-#rigth-arm {
-  animation: move-rigth-arm infinite linear 1s;
+#right-arm {
+  animation: move-right-arm infinite linear 1s;
   transform-origin: center;
 }
-#Table-Component {
-  z-index: 100;
+
+#Smoke-big {
+  animation: bigSmokeMove infinite 3s;
 }
 
-#Code:nth-child(odd) {
-  fill: "#fff";
+#Smoke-small {
+  animation: SmallSmokeMove infinite 3s;
 }
+
+@keyframes SmallSmokeMove {
+  0% {
+    opacity: 1;
+    transform: translate(35px, 50px);
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(35px, -21px);
+  }
+}
+@keyframes bigSmokeMove {
+  0% {
+    opacity: 1;
+    transform: translate(15px, 60px);
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(15px, -21px);
+  }
+}
+
 @keyframes move-left-arm {
   0% {
-    transform: translate(-10px, 350px);
+    transform: translate(-4px, 382px);
   }
   25% {
-    transform: translate(-10px, 345px);
+    transform: translate(-0px, 370px);
   }
   50% {
-    transform: translate(-10px, 350px);
+    transform: translate(-10px, 382px);
   }
   75% {
-    transform: translate(-10px, 345px);
+    transform: translate(-0px, 370px);
   }
   100% {
-    transform: translate(-10px, 350px);
+    transform: translate(-4px, 382px);
   }
 }
-@keyframes move-rigth-arm {
+@keyframes move-right-arm {
   0% {
-    transform: translate(245px, 330px);
+    transform: translate(193px, 370px);
   }
   25% {
-    transform: translate(245px, 335px);
+    transform: translate(195px, 375px);
   }
   50% {
-    transform: translate(245px, 330px);
+    transform: translate(199px, 373px);
   }
   75% {
-    transform: translate(245px, 335px);
+    transform: translate(195px, 376px);
   }
   100% {
-    transform: translate(245px, 330px);
+    transform: translate(193px, 370px);
   }
 }
+
 @keyframes headMove {
   0% {
-    transform: translate(129.164px, 120px);
+    transform: translate(129.164px, 150px);
   }
   50% {
-    transform: translate(130px, 110px);
+    transform: translate(130px, 140px);
   }
   100% {
-    transform: translate(129.164px, 120px);
+    transform: translate(129.164px, 150px);
   }
 }
 

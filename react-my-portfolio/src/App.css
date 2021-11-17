@@ -33,6 +33,9 @@ main {
 .section {
   margin-top: 5em;
 }
+/* section:nth-child(even) {
+  background-color: var(--clr-fg-alt);
+} */
 
 .section__title {
   text-align: center;
@@ -45,13 +48,18 @@ main {
   align-items: center;
 }
 
+.about__name {
+  /* font-size: 2em; */
+}
+
 .link {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
   position: relative;
 }
 
-.link:hover {
+.link:hover,
+.about__name:hover {
   color: var(--clr-primary);
 }
 

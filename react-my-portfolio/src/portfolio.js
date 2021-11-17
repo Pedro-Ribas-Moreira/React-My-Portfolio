@@ -8,9 +8,8 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Pedro Moreira",
-  role: "Web Developer | React Front-End",
-  description:
-    "I’m a Front-End developer, with expertise in React and passion to create cool animations and resposive applications.",
+  role: "Web Developer and React Front-End Engineer",
+  description: " ",
   resume: { Resume },
   social: {
     linkedin: "https://www.linkedin.com/in/pedroh-moreira/",
