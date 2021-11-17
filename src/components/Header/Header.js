@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Header.css";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const navbarControl = () => {
     if (window.scrollY > 100) {
       setShow(false);
@@ -19,12 +19,7 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", navbarControl);
     return () => window.removeEventListener("scroll", navbarControl);
-  }, []);
-
-  {
-    /* <div className={`nav ${show && 'nav_blue'}`}>
-</div> */
-  }
+  });
 
   return (
     <header className={`header center ${!show && "nav__shadow"}`}>

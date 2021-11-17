@@ -4,7 +4,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { about } from "../../portfolio";
 // import man from "../../assets/Scrollgroup.svg";
 import BackgroundPattern from "../../assets/BackgroundPattern";
-import SvgHero from "../../assets/SvgHero";
 import resume from "../../assets/resume.pdf";
 import "./About.css";
 import React from "react";
@@ -18,8 +17,8 @@ const About = () => {
       const colors = ["#2978B5", "#E6E6E6", "#fff"];
 
       bits.forEach((e) => {
-        const number = Math.floor(Math.random() * 2);
-        if (colors[number] == -1) {
+        const number = Math.floor(Math.random() * colors.length);
+        if (colors[number] === -1) {
           e.setAttribute("fill", "#fff");
         } else {
           e.setAttribute("fill", colors[number]);
@@ -60,6 +59,7 @@ const About = () => {
                   aria-label="github"
                   className="link link--icon"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <GitHubIcon />
                 </a>
@@ -71,6 +71,7 @@ const About = () => {
                   aria-label="linkedin"
                   className="link link--icon"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <LinkedInIcon />
                 </a>
