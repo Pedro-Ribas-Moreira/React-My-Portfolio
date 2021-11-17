@@ -26,31 +26,32 @@ const projects = [
       "A Task Manager to keep track of your goals and priorities, utilizing React and React Hooks couple with Material Ui for a nice design.",
     stack: ["React", "Material Ui", "Hooks"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-TodoList",
-    livePreview: "https://github.com",
+    livePreview: "https://react-todo-list-amber.vercel.app/",
   },
   {
     name: "React Form Validation",
     description:
       "Playing around with Reack Hooks (useReduce, useEffects) to create a optimized form validation with Authentication",
     stack: ["React", "CSS", "Reac Hooks"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    sourceCode:
+      "https://github.com/Pedro-Ribas-Moreira/React-FormValdation-Authentication",
+    livePreview: "https://react-formvalidation.vercel.app/",
   },
   {
-    name: "React Dashboard",
+    name: "Restaurant Web Page",
+    description:
+      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+    stack: ["Javascript", "css", "HTML"],
+    sourceCode: "https://github.com/Pedro-Ribas-Moreira/restaurant",
+    livePreview: "https://pedro-ribas-moreira.github.io/restaurant/",
+  },
+  {
+    name: "Play Mario! Web Page",
     description:
       "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
     stack: ["React", "Material Ui", "APIs"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-  },
-  {
-    name: "React Dashboard",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["React", "Material Ui", "APIs"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    sourceCode: "https://github.com/Pedro-Ribas-Moreira/Mario",
+    livePreview: "https://pedro-ribas-moreira.github.io/Mario/",
   },
   {
     name: "Project 2",
