@@ -1,5 +1,5 @@
 .section {
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-content: center;
 }
@@ -9,4 +9,19 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+}
+
+@media (max-width: 950px) {
+  .projects__grid {
+    grid-template-columns: repeat(2, minmax(18em, 1fr));
+    grid-gap: 1.2em;
+  }
+}
+
+@media (max-width: 590px) {
+  .projects__grid {
+    grid-template-columns: repeat(1, minmax(18em, 1fr));
+    grid-gap: 1.2em;
+    margin: 0 1em;
+  }
 }
