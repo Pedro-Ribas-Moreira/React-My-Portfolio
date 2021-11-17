@@ -8,9 +8,8 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Pedro Moreira",
-  role: "Web Developer | React Front-End",
-  description:
-    "I’m a Front-End developer, with expertise in React and passion to create cool animations and resposive applications.",
+  role: "Web Developer and React Front-End Engineer",
+  description: " ",
   resume: { Resume },
   social: {
     linkedin: "https://www.linkedin.com/in/pedroh-moreira/",
@@ -22,18 +21,18 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "React Dashboard",
+    name: "React Task Manager",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["React", "Material Ui", "APIs"],
-    sourceCode: "https://github.com",
+      "A Task Manager to keep track of your goals and priorities, utilizing React and React Hooks couple with Material Ui for a nice design.",
+    stack: ["React", "Material Ui", "Hooks"],
+    sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-TodoList",
     livePreview: "https://github.com",
   },
   {
-    name: "React Dashboard",
+    name: "React Form Validation",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["React", "Material Ui", "APIs"],
+      "Playing around with Reack Hooks (useReduce, useEffects) to create a optimized form validation with Authentication",
+    stack: ["React", "CSS", "Reac Hooks"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
