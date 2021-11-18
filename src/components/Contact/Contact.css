@@ -1,3 +1,16 @@
 .contact {
   flex-direction: column;
 }
+
+#Letter {
+  transition: all ease 1s;
+}
+
+/* @keyframes LetterReveal {
+  0% {
+    transform: translate(160px, 230px);
+  }
+  100% {
+    transform: translate(160px, 37px);
+  }
+} */

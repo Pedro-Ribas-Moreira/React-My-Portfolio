@@ -78,6 +78,7 @@ const skills = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Gsap",
   "React",
   "Redux",
   "React Hooks",

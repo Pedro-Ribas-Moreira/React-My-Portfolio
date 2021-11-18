@@ -30,12 +30,13 @@ main {
   margin: 0 auto;
 }
 
-.section {
-  margin-top: 5em;
+section {
+  height: 100%;
+  padding-top: 8em;
 }
-/* section:nth-child(even) {
-  background-color: var(--clr-fg-alt);
-} */
+.section {
+  margin-top: 8em;
+}
 
 .section__title {
   text-align: center;

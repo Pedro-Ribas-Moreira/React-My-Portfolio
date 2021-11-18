@@ -1,5 +1,8 @@
-.section {
+#projects {
   height: 100%;
+  display: block;
+}
+.section {
   display: grid;
   place-content: center;
 }
@@ -12,6 +15,9 @@
 }
 
 @media (max-width: 950px) {
+  #projects {
+    display: block;
+  }
   .projects__grid {
     grid-template-columns: repeat(2, minmax(18em, 1fr));
     grid-gap: 1.2em;
