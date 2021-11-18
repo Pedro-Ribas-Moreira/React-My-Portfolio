@@ -74,20 +74,26 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Gsap",
-  "React",
-  "Redux",
-  "React Hooks",
-  "SASS",
-  "Material UI",
-  "Git",
-  //   "CI/CD",
-  //   "Jest",
-  //   "Enzyme",
+  { item: "HTML", link: "https://www.w3schools.com/html/" },
+  { item: "CSS", link: "https://www.w3schools.com/css/" },
+  { item: "JavaScript", link: "https://www.w3schools.com/js/DEFAULT.asp" },
+  { item: "TypeScript", link: "https://www.typescriptlang.org/" },
+  { item: "Gsap", link: "https://greensock.com/react/" },
+  { item: "React", link: "https://reactjs.org/" },
+  { item: "Redux", link: "https://redux.js.org/" },
+  { item: "React Hooks", link: "https://reactjs.org/docs/hooks-intro.html" },
+  { item: "SASS", link: "https://sass-lang.com/" },
+  { item: "Material UI", link: "https://mui.com/pt/" },
+  { item: "Bootstrap", link: "https://getbootstrap.com/" },
+  { item: "Firebase", link: "https://firebase.google.com/" },
+  { item: "Vercel", link: "https://vercel.com/" },
+  { item: "Mongo DB", link: "https://www.mongodb.com/" },
+  { item: "MySql", link: "https://www.mysql.com/ " },
+  {
+    item: "Google App Script",
+    link: "https://developers.google.com/apps-script",
+  },
+  { item: "Source Control", link: "https://github.com/" },
 ];
 
 const contact = {
