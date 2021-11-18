@@ -54,12 +54,13 @@ const projects = [
     livePreview: "https://pedro-ribas-moreira.github.io/Mario/",
   },
   {
-    name: "Project 2",
+    name: "Productivity Tool ",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "A Web application coded with Google Script, with the main goal to generate quick notes through diferent policies and use Local Storage to save this notes as templates",
+    stack: ["CSS", "Javascript", "Google Script"],
     sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    livePreview:
+      "https://script.google.com/macros/s/AKfycbwuaEyLBckkGhqt6v3p839KrQZlvJfpJ9Dn7uNztTqRfKj4mSeQu90FOyMAiKqDMOCt/exec",
   },
   {
     name: "Project 3",
