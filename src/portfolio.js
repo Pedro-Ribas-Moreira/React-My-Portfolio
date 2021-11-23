@@ -7,9 +7,10 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: "Pedro Moreira",
+  name: "Pedro Moreira.",
   role: "Web Developer and React Front-End Engineer",
-  description: " ",
+  description:
+    "A passionate Front-End developer having experience building Web Applications with Javascript / React / NodeJS and some other cool libraries and frameworks. ",
   resume: { Resume },
   social: {
     linkedin: "https://www.linkedin.com/in/pedroh-moreira/",
@@ -40,7 +41,7 @@ const projects = [
   {
     name: "Restaurant Web Page",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+      "A personal project to pratice the skills in Javascript and CSS",
     stack: ["Javascript", "css", "HTML"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/restaurant",
     livePreview: "https://pedro-ribas-moreira.github.io/restaurant/",
@@ -48,7 +49,7 @@ const projects = [
   {
     name: "Play Mario! Web Page",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+      "A personal project to pratice the skills in Javascript and CSS",
     stack: ["React", "Material Ui", "APIs"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/Mario",
     livePreview: "https://pedro-ribas-moreira.github.io/Mario/",
