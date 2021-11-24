@@ -10,7 +10,7 @@ const about = {
   name: "Pedro Moreira.",
   role: "Web Developer and React Front-End Engineer",
   description:
-    "A passionate Front-End developer having experience building Web Applications with Javascript / React / NodeJS and some other cool libraries and frameworks. ",
+    "I’m a Web Developer with expertise in React Front-End, I like to code things from scratch, and enjoy bringing ideas to life, I focus on responsive aplications built for an optimal user experience",
   resume: { Resume },
   social: {
     linkedin: "https://www.linkedin.com/in/pedroh-moreira/",
@@ -28,6 +28,14 @@ const projects = [
     stack: ["React", "Material Ui", "Hooks"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-TodoList",
     livePreview: "https://react-todo-list-amber.vercel.app/",
+  },
+  {
+    name: "React - Food Delivery App",
+    description:
+      "A project of a food delivery app - focus on trainning react hooks like useContext to improve my skills",
+    stack: ["React", "CSS Modules", "Reac Hooks"],
+    sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-FoodDeliveryApp",
+    livePreview: "https://react-food-delivery-app.vercel.app/ ",
   },
   {
     name: "React Form Validation",
@@ -62,14 +70,6 @@ const projects = [
     sourceCode: "https://github.com",
     livePreview:
       "https://script.google.com/macros/s/AKfycbwuaEyLBckkGhqt6v3p839KrQZlvJfpJ9Dn7uNztTqRfKj4mSeQu90FOyMAiKqDMOCt/exec",
-  },
-  {
-    name: "Project 3",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
   },
 ];
 
