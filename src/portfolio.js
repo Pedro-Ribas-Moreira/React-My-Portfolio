@@ -10,7 +10,7 @@ const about = {
   name: "Pedro Moreira.",
   role: "Web Developer and React Front-End Engineer",
   description:
-    "I’m a Web Developer with expertise in React Front-End, I like to code things from scratch, and enjoy bringing ideas to life, I focus on responsive aplications built for an optimal user experience",
+    "I’m a Web Developer with expertise in React for Front-End Development, I like to code things from scratch, and enjoy bringing ideas to life, I focus on responsive aplications built for an optimal user experience",
   resume: { Resume },
   social: {
     linkedin: "https://www.linkedin.com/in/pedroh-moreira/",
