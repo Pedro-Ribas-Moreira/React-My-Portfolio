@@ -22,50 +22,50 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "React Task Manager",
+    name: "React Project - Task Manager",
     description:
-      "A Task Manager to keep track of your goals and priorities, utilizing React and React Hooks couple with Material Ui for a nice design.",
+      "A personal project with React, applying the latest hook features and Material Ui library for style.",
     stack: ["React", "Material Ui", "Hooks"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-TodoList",
     livePreview: "https://react-todo-list-amber.vercel.app/",
   },
   {
-    name: "React - Food Delivery App",
+    name: "React Project - Food Delivery App",
     description:
-      "A project of a food delivery app - focus on trainning react hooks like useContext to improve my skills",
-    stack: ["React", "CSS Modules", "Reac Hooks"],
+      "A personal project with React, applying the latest hook features, with useContext to globally manage the Cart state. Also, I choose to use Firebase as database and CSS modules for style.",
+    stack: ["React", "CSS Modules", "React Hooks", "Firebase"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/React-FoodDeliveryApp",
     livePreview: "https://react-food-delivery-app.vercel.app/ ",
   },
   {
-    name: "React Form Validation",
+    name: "React Project - Form Validation",
     description:
-      "Playing around with Reack Hooks (useReduce, useEffects) to create a optimized form validation with Authentication",
-    stack: ["React", "CSS", "Reac Hooks"],
+      "A personal project with React, applying the latest hook features, with useReduce and useEffects to create an optimized form validation. Also, I used CSS modules for style.",
+    stack: ["React", "CSS", "React Hooks"],
     sourceCode:
       "https://github.com/Pedro-Ribas-Moreira/React-FormValdation-Authentication",
     livePreview: "https://react-formvalidation.vercel.app/",
   },
   {
-    name: "Restaurant Web Page",
+    name: "Website Project - Restaurant Web Page",
     description:
-      "A personal project to pratice the skills in Javascript and CSS",
-    stack: ["Javascript", "css", "HTML"],
+      " A project with vanilla JS and CSS, utilizing keyframes and javascript animations to deliver a modern and responsive website for a restaurant. ",
+    stack: ["Javascript", "CSS", "HTML"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/restaurant",
     livePreview: "https://pedro-ribas-moreira.github.io/restaurant/",
   },
   {
-    name: "Play Mario! Web Page",
+    name: "Website Project - Play Mario! Web Page",
     description:
-      "A personal project to pratice the skills in Javascript and CSS",
+      "A project for my Web Development Diploma, with vanilla JS and CSS, I developed an animated website with a game thematic.",
     stack: ["React", "Material Ui", "APIs"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/Mario",
     livePreview: "https://pedro-ribas-moreira.github.io/Mario/",
   },
   {
-    name: "Productivity Tool ",
+    name: "AppScrit Project - Productivity Tool ",
     description:
-      "A Web application coded with Google Script, with the main goal to generate quick notes through diferent policies and use Local Storage to save this notes as templates",
+      "A Web App that I developed for my previous project in Accenture. build with Google AppScripts, Javascript, and CSS. It is a tool to generate quick notes and is able to save these notes as templates",
     stack: ["CSS", "Javascript", "Google Script"],
     sourceCode: "https://github.com",
     livePreview:

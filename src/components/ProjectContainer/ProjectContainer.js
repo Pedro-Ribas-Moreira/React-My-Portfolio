@@ -5,7 +5,12 @@ import "./ProjectContainer.css";
 
 const ProjectContainer = (props) => {
   return (
-    <div className="project">
+    <div className="project box">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
       <h3>{props.project.name}</h3>
 
       <p className="project__description">{props.project.description}</p>
