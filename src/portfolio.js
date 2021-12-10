@@ -58,16 +58,16 @@ const projects = [
     name: "Website Project - Play Mario! Web Page",
     description:
       "A project for my Web Development Diploma, with vanilla JS and CSS, I developed an animated website with a game thematic.",
-    stack: ["React", "Material Ui", "APIs"],
+    stack: ["Javacript", "CSS", "HTML"],
     sourceCode: "https://github.com/Pedro-Ribas-Moreira/Mario",
     livePreview: "https://pedro-ribas-moreira.github.io/Mario/",
   },
   {
     name: "AppScrit Project - Productivity Tool ",
     description:
-      "A Web App that I developed for my previous project in Accenture. build with Google AppScripts, Javascript, and CSS. It is a tool to generate quick notes and is able to save these notes as templates",
+      "A Web App developed for my previous project in Accenture. Built with Google AppScripts, Javascript, and CSS. It is a tool to generate quick notes and can save these notes as templates",
     stack: ["CSS", "Javascript", "Google Script"],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/Pedro-Ribas-Moreira/Productivity-Tool",
     livePreview:
       "https://script.google.com/macros/s/AKfycbwuaEyLBckkGhqt6v3p839KrQZlvJfpJ9Dn7uNztTqRfKj4mSeQu90FOyMAiKqDMOCt/exec",
   },
